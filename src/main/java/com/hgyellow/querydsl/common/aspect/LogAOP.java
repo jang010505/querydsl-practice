@@ -10,8 +10,8 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
 
 @Slf4j
-@Aspect
-@Component
+//@Aspect
+//@Component
 public class LogAOP {
 
     @Pointcut("execution(* com.hgyellow.querydsl..api.*.*(..))")
